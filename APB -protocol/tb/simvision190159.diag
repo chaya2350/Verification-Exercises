@@ -1,0 +1,109 @@
+*** Message Type: info ***
+When: Sun Nov 02 09:38:18 AM UTC 2025
+SimVision started.
+Version: TOOL:  simvision(64)   24.09-s011
+User: chayaza
+Host: ip-10-20-152-169.il-central-1.compute.internal
+Platform: Linux/x86_64/4.18.0-553.63.1.el8_10.x86_64
+Started: Sun Nov 02 09:38:18 AM UTC 2025
+Command: /tools/cadence/XCELIUM/24.09.011/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:ip-10-20-152-169.il-central-1.compute.internal:42859 -64BIT -nocopyright
+Work Directory: /project/uvma/users/chayaza/ws/UVMA_v1_2_5_rev2/uvm/apb/tb
+ 
+*** Message Type: info ***
+When: Sun Nov 02 09:38:20 AM UTC 2025
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Sun Nov 02 09:38:21 AM UTC 2025
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Sun Nov 02 09:38:22 AM UTC 2025
+Connect to Simulator
+      Design: worklib.apb_tb_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       24.09-s011
+        User: chayaza
+        Host: ip-10-20-152-169.il-central-1.compute.internal
+Time Started: Sun Nov 02 09:38:16 AM UTC 2025
+  Process ID: 190056
+   Directory: /project/uvma/users/chayaza/ws/UVMA_v1_2_5_rev2/uvm/apb/tb
+     Command: xrun -f run.f -gui -access rwc
+
+ 
+*** Message Type: info ***
+When: Sun Nov 02 09:38:24 AM UTC 2025
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Sun Nov 02 09:38:35 AM UTC 2025
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Sun Nov 02 09:43:13 AM UTC 2025
+Exit XM-Sim: user
+      Design: worklib.apb_tb_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       24.09-s011
+        User: chayaza
+        Host: ip-10-20-152-169.il-central-1.compute.internal
+Time Started: Sun Nov 02 09:38:16 AM UTC 2025
+  Process ID: 190056
+   Directory: /project/uvma/users/chayaza/ws/UVMA_v1_2_5_rev2/uvm/apb/tb
+     Command: xrun -f run.f -gui -access rwc
+
+ 
+*** Message Type: info ***
+When: Sun Nov 02 09:43:24 AM UTC 2025
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: error ***
+When: Sun Nov 02 09:44:33 AM UTC 2025
+XM-Sim Crashed:
+      Design: worklib.apb_tb_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       24.09-s011
+        User: chayaza
+        Host: ip-10-20-152-169.il-central-1.compute.internal
+Time Started: Sun Nov 02 09:38:16 AM UTC 2025
+  Process ID: 190056
+   Directory: /project/uvma/users/chayaza/ws/UVMA_v1_2_5_rev2/uvm/apb/tb
+     Command: xrun -f run.f -gui -access rwc
+      Design: worklib.apb_tb_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:     xmsim(64)       24.09-s011
+        User: chayaza
+        Host: ip-10-20-152-169.il-central-1.compute.internal
+Time Started: Sun Nov 02 09:38:16 AM UTC 2025
+  Process ID: 190056
+   Directory: /project/uvma/users/chayaza/ws/UVMA_v1_2_5_rev2/uvm/apb/tb
+     Command: xrun -f run.f -gui -access rwc
+
+ 
+*** Message Type: info ***
+When: Sun Nov 02 09:44:38 AM UTC 2025
+Recall Simulator
+ 
+*** Message Type: info ***
+When: Sun Nov 02 09:44:50 AM UTC 2025
+Connect to Simulator
+      Design: worklib.apb_tb_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       24.09-s011
+        User: chayaza
+        Host: ip-10-20-152-169.il-central-1.compute.internal
+Time Started: Sun Nov 02 09:44:48 AM UTC 2025
+  Process ID: 190459
+   Directory: /project/uvma/users/chayaza/ws/UVMA_v1_2_5_rev2/uvm/apb/tb
+     Command: xrun -f run.f -access rwc -tcl -nolog -nocopyright -neverwarn
+
+ 
+*** Message Type: info ***
+When: Sun Nov 02 09:44:58 AM UTC 2025
+SimVision Exit.
+ 

@@ -1,0 +1,92 @@
+*** Message Type: info ***
+When: Mon Sep 01 01:26:58 PM UTC 2025
+SimVision started.
+Version: TOOL:  simvision(64)   24.09-s011
+User: chayaza
+Host: ip-10-20-126-173.il-central-1.compute.internal
+Platform: Linux/x86_64/4.18.0-553.63.1.el8_10.x86_64
+Started: Mon Sep 01 01:26:58 PM UTC 2025
+Command: /tools/cadence/XCELIUM/24.09.011/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:ip-10-20-126-173.il-central-1.compute.internal:45597 -64BIT -nocopyright
+Work Directory: /data/home/chayaza/Desktop/clk
+ 
+*** Message Type: info ***
+When: Mon Sep 01 01:26:59 PM UTC 2025
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Mon Sep 01 01:26:59 PM UTC 2025
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Mon Sep 01 01:27:00 PM UTC 2025
+Connect to Simulator
+      Design: worklib.tb_clk_divs:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:      xmsim(64)       24.09-s011
+        User: chayaza
+        Host: ip-10-20-126-173.il-central-1.compute.internal
+Time Started: Mon Sep 01 01:26:57 PM UTC 2025
+  Process ID: 78874
+   Directory: /data/home/chayaza/Desktop/clk
+     Command: xrun clk_div_2.v clk_div_8.v clk_div_test.v -gui -access +rwc
+
+ 
+*** Message Type: info ***
+When: Mon Sep 01 01:27:00 PM UTC 2025
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Mon Sep 01 01:27:03 PM UTC 2025
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Mon Sep 01 01:34:44 PM UTC 2025
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Mon Sep 01 01:34:53 PM UTC 2025
+Exit XM-Sim: user
+      Design: worklib.tb_clk_divs:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:      xmsim(64)       24.09-s011
+        User: chayaza
+        Host: ip-10-20-126-173.il-central-1.compute.internal
+Time Started: Mon Sep 01 01:26:57 PM UTC 2025
+  Process ID: 78874
+   Directory: /data/home/chayaza/Desktop/clk
+     Command: xrun clk_div_2.v clk_div_8.v clk_div_test.v -gui -access +rwc
+
+ 
+*** Message Type: error ***
+When: Mon Sep 01 01:34:53 PM UTC 2025
+XM-Sim Crashed:
+      Design: worklib.tb_clk_divs:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:      xmsim(64)       24.09-s011
+        User: chayaza
+        Host: ip-10-20-126-173.il-central-1.compute.internal
+Time Started: Mon Sep 01 01:26:57 PM UTC 2025
+  Process ID: 78874
+   Directory: /data/home/chayaza/Desktop/clk
+     Command: xrun clk_div_2.v clk_div_8.v clk_div_test.v -gui -access +rwc
+      Design: worklib.tb_clk_divs:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:     xmsim(64)       24.09-s011
+        User: chayaza
+        Host: ip-10-20-126-173.il-central-1.compute.internal
+Time Started: Mon Sep 01 01:26:57 PM UTC 2025
+  Process ID: 78874
+   Directory: /data/home/chayaza/Desktop/clk
+     Command: xrun clk_div_2.v clk_div_8.v clk_div_test.v -gui -access +rwc
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Mon Sep 01 01:34:57 PM UTC 2025
+SimVision Exit.
+ 

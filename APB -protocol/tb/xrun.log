@@ -1,0 +1,415 @@
+xrun(64): 24.09-s011: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s011: Started on Nov 04, 2025 at 11:24:06 UTC
+xrun
+	-f run.f
+		-64
+		-uvmhome /tools/cadence/XCELIUM/24.09.011/tools/methodology/UVM/CDNS-1.1d
+		-timescale 1ns/1ns
+		+incdir+../sv
+		+incdir+../tb
+		+incdir+../dut
+		../sv/apb_if.sv
+		../sv/apb_pkg.sv
+		../dut/apb_slave.sv
+		apb_tb_top.sv
+		+UVM_TESTNAME=rand_seq_test
+		+UVM_VERBOSITY=UVM_HIGH
+		+ntb_random_seed=auto
+	-gui
+	-access rwc
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_HIGH
+	+ntb_random_seed=auto
+
+file: apb_tb_top.sv
+xmvlog: *W,SPDUSD: Include directory ../tb given but not used.
+xmvlog: *W,SPDUSD: Include directory ../dut given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		apb_pkg
+		$unit_0x32d1b610
+		apb_tb_top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.apb_slave:sv <0x186af9a4>
+			streams:   8, words: 43312
+		worklib.apb_if:sv <0x000e90ff>
+			streams: 692, words: 846556
+		worklib.cdns_uvm_pkg:sv <0x125ce517>
+			streams: 172, words: 276068
+		worklib.cdns_uvmapi:svp <0x30516b04>
+			streams:  27, words: 30445
+		worklib.cdns_assert2uvm_pkg:sv <0x6ba24ce3>
+			streams:   3, words:  1761
+		worklib.uvm_pkg:sv <0x5931f936>
+			streams: 4536, words: 7161604
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Modules:                        2       2
+		Interfaces:                     1       1
+		Verilog packages:               5       5
+		Registers:                 14,400  10,229
+		Scalar wires:                   9       -
+		Vectored wires:                 4       -
+		Named events:                   4      12
+		Always blocks:                  1       1
+		Initial blocks:               291     157
+		Parallel blocks:               26      27
+		Pseudo assignments:             9       -
+		Assertions:                     2       2
+		Compilation units:              1       1
+		SV Class declarations:        199     313
+		SV Class specializations:     390     390
+		Process Clocks:                 1       1
+		Simulation timescale:         1ps
+	Writing initial simulation snapshot: worklib.apb_tb_top:sv
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+SVSEED default: 1
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /tools/cadence/XCELIUM/24.09.011/tools/xcelium/files/xmsimrc
+xcelium> source /tools/cadence/XCELIUM/24.09.011/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (24.09-s011)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test rand_seq_test...
+UVM_INFO apb_test.sv(21) @ 0: uvm_test_top [MSG] Test build_phase executed
+UVM_INFO ../sv/apb_monitor.sv(21) @ 0: uvm_test_top.master_agent.monitor [DEBUG] Monitor full name: uvm_test_top.master_agent.monitor
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+--------------------------------------------------------------
+Name                       Type                    Size  Value
+--------------------------------------------------------------
+uvm_test_top               rand_seq_test           -     @2430
+  master_agent             apb_agent               -     @2512
+    m_driver               apb_master_driver       -     @3218
+      rsp_port             uvm_analysis_port       -     @3367
+        recording_detail   integral                32    'd1  
+      seq_item_port        uvm_seq_item_pull_port  -     @3318
+        recording_detail   integral                32    'd1  
+      num_sent             integral                32    'h0  
+      recording_detail     integral                32    'd1  
+    monitor                apb_monitor             -     @2551
+      item_collected_port  uvm_analysis_port       -     @2601
+        recording_detail   integral                32    'd1  
+      num_pkt_col          integral                32    'h0  
+      recording_detail     integral                32    'd1  
+    sequencer              apb_sequencer           -     @2632
+      rsp_export           uvm_analysis_export     -     @2691
+        recording_detail   integral                32    'd1  
+      seq_item_export      uvm_seq_item_pull_imp   -     @3239
+        recording_detail   integral                32    'd1  
+      recording_detail     integral                32    'd1  
+      arbitration_queue    array                   0     -    
+      lock_queue           array                   0     -    
+      num_last_reqs        integral                32    'd1  
+      num_last_rsps        integral                32    'd1  
+    is_master              integral                1     'h1  
+    recording_detail       integral                32    'd1  
+--------------------------------------------------------------
+
+UVM_INFO ../sv/apb_sequencer.sv(9) @ 0: uvm_test_top.master_agent.sequencer [apb_sequencer] start of simulation foruvm_test_top.master_agent.sequencer
+UVM_INFO apb_test.sv(27) @ 0: uvm_test_top [RUN] Base test running...
+stop -create -name Randomize -randomize
+Created stop Randomize
+
+SDI/Verilog Transaction Recording Facility Version 24.09-s011
+UVM_INFO ../sv/apb_seq.sv(23) @ 0: uvm_test_top.master_agent.sequencer@@apb_rand_seq [apb_rand_seq] raise objection
+UVM_INFO ../sv/apb_seq.sv(59) @ 0: uvm_test_top.master_agent.sequencer@@apb_rand_seq [apb_rand_seq] Executing apb_rand_seq 4 times
+UVM_INFO ../sv/apb_monitor.sv(30) @ 20000: uvm_test_top.master_agent.monitor [apb_monitor] Detected Reset Done
+UVM_INFO ../sv/apb_master_driver.sv(33) @ 20000: uvm_test_top.master_agent.m_driver [apb_master_driver] Sending APB Master Packet: addr=b4a5e6b7, cmd= READ, data=13073475
+UVM_INFO ../sv/apb_monitor.sv(66) @ 45000: uvm_test_top.master_agent.monitor [apb_monitor] APB Transaction detected: addr=b4a5e6b7 data=b7
+UVM_INFO ../sv/apb_monitor.sv(36) @ 45000: uvm_test_top.master_agent.monitor [apb_monitor] Packet Collected:
+---------------------------------------------
+Name          Type           Size  Value     
+---------------------------------------------
+pkt           apb_packet     -     @3500     
+  addr        integral       32    'hb4a5e6b7
+  data        integral       32    'hb7      
+  command     apb_command_e  32    READ      
+  begin_time  time           64    25000     
+  end_time    time           64    45000     
+---------------------------------------------
+
+UVM_INFO ../sv/apb_master_driver.sv(33) @ 60000: uvm_test_top.master_agent.m_driver [apb_master_driver] Sending APB Master Packet: addr=6e3fab9a, cmd=WRITE, data=817ab656
+UVM_INFO ../sv/apb_monitor.sv(66) @ 85000: uvm_test_top.master_agent.monitor [apb_monitor] APB Transaction detected: addr=6e3fab9a data=817ab656
+UVM_INFO ../sv/apb_monitor.sv(36) @ 85000: uvm_test_top.master_agent.monitor [apb_monitor] Packet Collected:
+---------------------------------------------
+Name          Type           Size  Value     
+---------------------------------------------
+pkt           apb_packet     -     @3556     
+  addr        integral       32    'h6e3fab9a
+  data        integral       32    'h817ab656
+  command     apb_command_e  32    WRITE     
+  begin_time  time           64    65000     
+  end_time    time           64    85000     
+---------------------------------------------
+
+UVM_INFO ../sv/apb_master_driver.sv(33) @ 100000: uvm_test_top.master_agent.m_driver [apb_master_driver] Sending APB Master Packet: addr=89214131, cmd= READ, data=828798f1
+UVM_INFO ../sv/apb_monitor.sv(66) @ 125000: uvm_test_top.master_agent.monitor [apb_monitor] APB Transaction detected: addr=89214131 data=31
+UVM_INFO ../sv/apb_monitor.sv(36) @ 125000: uvm_test_top.master_agent.monitor [apb_monitor] Packet Collected:
+---------------------------------------------
+Name          Type           Size  Value     
+---------------------------------------------
+pkt           apb_packet     -     @3563     
+  addr        integral       32    'h89214131
+  data        integral       32    'h31      
+  command     apb_command_e  32    READ      
+  begin_time  time           64    105000    
+  end_time    time           64    125000    
+---------------------------------------------
+
+UVM_INFO ../sv/apb_master_driver.sv(33) @ 140000: uvm_test_top.master_agent.m_driver [apb_master_driver] Sending APB Master Packet: addr=54aa77e, cmd= READ, data=7a3c4572
+UVM_INFO ../sv/apb_monitor.sv(66) @ 165000: uvm_test_top.master_agent.monitor [apb_monitor] APB Transaction detected: addr=54aa77e data=7e
+UVM_INFO ../sv/apb_monitor.sv(36) @ 165000: uvm_test_top.master_agent.monitor [apb_monitor] Packet Collected:
+--------------------------------------------
+Name          Type           Size  Value    
+--------------------------------------------
+pkt           apb_packet     -     @3557    
+  addr        integral       32    'h54aa77e
+  data        integral       32    'h7e     
+  command     apb_command_e  32    READ     
+  begin_time  time           64    145000   
+  end_time    time           64    165000   
+--------------------------------------------
+
+UVM_INFO ../sv/apb_seq.sv(37) @ 180000: uvm_test_top.master_agent.sequencer@@apb_rand_seq [apb_rand_seq] drop objection
+UVM_INFO /tools/cadence/XCELIUM/24.09.011/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 380000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO @ 380000: uvm_test_top [CFGNRD]  ::: The following resources have at least one write and no reads :::
+vif [/^.*\.s_driver$/] : (virtual interface apb_if.slave_drv_mp #(32'd32,32'd32)) virtual interface apb_if #(32'h00000020,32'h00000020)@227_1
+-  
+  --------
+   reads: 0 @ 0  writes: 1 @ 0
+ 
+UVM_INFO ../sv/apb_master_driver.sv(76) @ 380000: uvm_test_top.master_agent.m_driver [apb_master_driver] APB Master driver sent 4 packets
+UVM_INFO ../sv/apb_monitor.sv(72) @ 380000: uvm_test_top.master_agent.monitor [apb_monitor] Report: APB Monitor Collected 4 Packets
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   26
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[CFGNRD]     1
+[DEBUG]     1
+[MSG]     1
+[RNTST]     1
+[RUN]     1
+[TEST_DONE]     1
+[UVMTOP]     1
+[apb_master_driver]     5
+[apb_monitor]    10
+[apb_rand_seq]     3
+[apb_sequencer]     1
+Simulation complete via $finish(1) at time 380 NS + 45
+/tools/cadence/XCELIUM/24.09.011/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> probe -create -shm apb_tb_top.apb_master_if.paddr apb_tb_top.apb_master_if.pclk apb_tb_top.apb_master_if.penable apb_tb_top.apb_master_if.prdata apb_tb_top.apb_master_if.pready apb_tb_top.apb_master_if.presetn apb_tb_top.apb_master_if.psel apb_tb_top.apb_master_if.pslverr apb_tb_top.apb_master_if.pwdata apb_tb_top.apb_master_if.pwrite
+Created default SHM database xcelium.shm
+Created probe 1
+xcelium> reset
+SVSEED default: 1
+xmsim: *W,SCPINV: Dynamic scope `uvm_pkg::uvm_root@746_1.run_test' no longer valid - traversing to last valid scope `apb_tb_top'.
+Loaded snapshot worklib.apb_tb_top:sv
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (24.09-s011)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test rand_seq_test...
+UVM_INFO apb_test.sv(21) @ 0: uvm_test_top [MSG] Test build_phase executed
+UVM_INFO ../sv/apb_monitor.sv(21) @ 0: uvm_test_top.master_agent.monitor [DEBUG] Monitor full name: uvm_test_top.master_agent.monitor
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+--------------------------------------------------------------
+Name                       Type                    Size  Value
+--------------------------------------------------------------
+uvm_test_top               rand_seq_test           -     @2430
+  master_agent             apb_agent               -     @2512
+    m_driver               apb_master_driver       -     @3218
+      rsp_port             uvm_analysis_port       -     @3367
+        recording_detail   integral                32    'd1  
+      seq_item_port        uvm_seq_item_pull_port  -     @3318
+        recording_detail   integral                32    'd1  
+      num_sent             integral                32    'h0  
+      recording_detail     integral                32    'd1  
+    monitor                apb_monitor             -     @2551
+      item_collected_port  uvm_analysis_port       -     @2601
+        recording_detail   integral                32    'd1  
+      num_pkt_col          integral                32    'h0  
+      recording_detail     integral                32    'd1  
+    sequencer              apb_sequencer           -     @2632
+      rsp_export           uvm_analysis_export     -     @2691
+        recording_detail   integral                32    'd1  
+      seq_item_export      uvm_seq_item_pull_imp   -     @3239
+        recording_detail   integral                32    'd1  
+      recording_detail     integral                32    'd1  
+      arbitration_queue    array                   0     -    
+      lock_queue           array                   0     -    
+      num_last_reqs        integral                32    'd1  
+      num_last_rsps        integral                32    'd1  
+    is_master              integral                1     'h1  
+    recording_detail       integral                32    'd1  
+--------------------------------------------------------------
+
+UVM_INFO ../sv/apb_sequencer.sv(9) @ 0: uvm_test_top.master_agent.sequencer [apb_sequencer] start of simulation foruvm_test_top.master_agent.sequencer
+UVM_INFO apb_test.sv(27) @ 0: uvm_test_top [RUN] Base test running...
+UVM_INFO ../sv/apb_seq.sv(23) @ 0: uvm_test_top.master_agent.sequencer@@apb_rand_seq [apb_rand_seq] raise objection
+UVM_INFO ../sv/apb_seq.sv(59) @ 0: uvm_test_top.master_agent.sequencer@@apb_rand_seq [apb_rand_seq] Executing apb_rand_seq 4 times
+UVM_INFO ../sv/apb_monitor.sv(30) @ 20000: uvm_test_top.master_agent.monitor [apb_monitor] Detected Reset Done
+UVM_INFO ../sv/apb_master_driver.sv(33) @ 20000: uvm_test_top.master_agent.m_driver [apb_master_driver] Sending APB Master Packet: addr=b4a5e6b7, cmd= READ, data=13073475
+UVM_INFO ../sv/apb_monitor.sv(66) @ 45000: uvm_test_top.master_agent.monitor [apb_monitor] APB Transaction detected: addr=b4a5e6b7 data=b7
+UVM_INFO ../sv/apb_monitor.sv(36) @ 45000: uvm_test_top.master_agent.monitor [apb_monitor] Packet Collected:
+---------------------------------------------
+Name          Type           Size  Value     
+---------------------------------------------
+pkt           apb_packet     -     @3500     
+  addr        integral       32    'hb4a5e6b7
+  data        integral       32    'hb7      
+  command     apb_command_e  32    READ      
+  begin_time  time           64    25000     
+  end_time    time           64    45000     
+---------------------------------------------
+
+UVM_INFO ../sv/apb_master_driver.sv(33) @ 60000: uvm_test_top.master_agent.m_driver [apb_master_driver] Sending APB Master Packet: addr=6e3fab9a, cmd=WRITE, data=817ab656
+UVM_INFO ../sv/apb_monitor.sv(66) @ 85000: uvm_test_top.master_agent.monitor [apb_monitor] APB Transaction detected: addr=6e3fab9a data=817ab656
+UVM_INFO ../sv/apb_monitor.sv(36) @ 85000: uvm_test_top.master_agent.monitor [apb_monitor] Packet Collected:
+---------------------------------------------
+Name          Type           Size  Value     
+---------------------------------------------
+pkt           apb_packet     -     @3556     
+  addr        integral       32    'h6e3fab9a
+  data        integral       32    'h817ab656
+  command     apb_command_e  32    WRITE     
+  begin_time  time           64    65000     
+  end_time    time           64    85000     
+---------------------------------------------
+
+UVM_INFO ../sv/apb_master_driver.sv(33) @ 100000: uvm_test_top.master_agent.m_driver [apb_master_driver] Sending APB Master Packet: addr=89214131, cmd= READ, data=828798f1
+UVM_INFO ../sv/apb_monitor.sv(66) @ 125000: uvm_test_top.master_agent.monitor [apb_monitor] APB Transaction detected: addr=89214131 data=31
+UVM_INFO ../sv/apb_monitor.sv(36) @ 125000: uvm_test_top.master_agent.monitor [apb_monitor] Packet Collected:
+---------------------------------------------
+Name          Type           Size  Value     
+---------------------------------------------
+pkt           apb_packet     -     @3563     
+  addr        integral       32    'h89214131
+  data        integral       32    'h31      
+  command     apb_command_e  32    READ      
+  begin_time  time           64    105000    
+  end_time    time           64    125000    
+---------------------------------------------
+
+UVM_INFO ../sv/apb_master_driver.sv(33) @ 140000: uvm_test_top.master_agent.m_driver [apb_master_driver] Sending APB Master Packet: addr=54aa77e, cmd= READ, data=7a3c4572
+UVM_INFO ../sv/apb_monitor.sv(66) @ 165000: uvm_test_top.master_agent.monitor [apb_monitor] APB Transaction detected: addr=54aa77e data=7e
+UVM_INFO ../sv/apb_monitor.sv(36) @ 165000: uvm_test_top.master_agent.monitor [apb_monitor] Packet Collected:
+--------------------------------------------
+Name          Type           Size  Value    
+--------------------------------------------
+pkt           apb_packet     -     @3557    
+  addr        integral       32    'h54aa77e
+  data        integral       32    'h7e     
+  command     apb_command_e  32    READ     
+  begin_time  time           64    145000   
+  end_time    time           64    165000   
+--------------------------------------------
+
+UVM_INFO ../sv/apb_seq.sv(37) @ 180000: uvm_test_top.master_agent.sequencer@@apb_rand_seq [apb_rand_seq] drop objection
+UVM_INFO /tools/cadence/XCELIUM/24.09.011/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 380000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO @ 380000: uvm_test_top [CFGNRD]  ::: The following resources have at least one write and no reads :::
+vif [/^.*\.s_driver$/] : (virtual interface apb_if.slave_drv_mp #(32'd32,32'd32)) virtual interface apb_if #(32'h00000020,32'h00000020)@227_1
+-  
+  --------
+   reads: 0 @ 0  writes: 1 @ 0
+ 
+UVM_INFO ../sv/apb_master_driver.sv(76) @ 380000: uvm_test_top.master_agent.m_driver [apb_master_driver] APB Master driver sent 4 packets
+UVM_INFO ../sv/apb_monitor.sv(72) @ 380000: uvm_test_top.master_agent.monitor [apb_monitor] Report: APB Monitor Collected 4 Packets
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   26
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[CFGNRD]     1
+[DEBUG]     1
+[MSG]     1
+[RNTST]     1
+[RUN]     1
+[TEST_DONE]     1
+[UVMTOP]     1
+[apb_master_driver]     5
+[apb_monitor]    10
+[apb_rand_seq]     3
+[apb_sequencer]     1
+Simulation complete via $finish(1) at time 380 NS + 45
+/tools/cadence/XCELIUM/24.09.011/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	24.09-s011: Exiting on Nov 04, 2025 at 11:30:46 UTC  (total: 00:06:40)

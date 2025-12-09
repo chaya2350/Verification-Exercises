@@ -1,0 +1,49 @@
+xrun(64): 24.09-s011: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s011: Started on Sep 16, 2025 at 12:13:49 UTC
+xrun
+	parallel_to_serial.sv
+	p2s_if.sv
+	env_classes.sv
+	tb.sv
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		env_pkg
+		$unit_0x143a29da
+		tb
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                    2       2
+		Interfaces:                 1       1
+		Verilog packages:           1       1
+		Registers:                 39      46
+		Scalar wires:               7       -
+		Vectored wires:             1       -
+		Always blocks:              1       1
+		Initial blocks:             3       3
+		Clocking blocks:            2       2
+		Clocking items:             7       7
+		Parallel blocks:            1       1
+		Cont. assignments:          1       1
+		Pseudo assignments:         5       -
+		Compilation units:          1       1
+		SV Class declarations:      4       4
+		SV Class specializations:   4       4
+		Process Clocks:             1       1
+	Writing initial simulation snapshot: worklib.tb:sv
+Loading snapshot worklib.tb:sv .................... Done
+SVSEED default: 1
+xcelium> source /tools/cadence/XCELIUM/24.09.011/tools/xcelium/files/xmsimrc
+xcelium> run
+
+
+TEST PASS
+
+
+Simulation complete via $finish(1) at time 2231 NS + 0
+./tb.sv:47         $finish;
+xcelium> exit
+TOOL:	xrun(64)	24.09-s011: Exiting on Sep 16, 2025 at 12:16:04 UTC  (total: 00:02:15)

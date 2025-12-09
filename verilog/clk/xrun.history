@@ -1,0 +1,96 @@
+#e1(01Sep2025:11:46:17): source ./xcelium.d/env.d/env.history.01Sep2025_11_46_17
+s1(01Sep2025:11:46:17):  xrun clk_div_2.v clk_div_2_test.v 
+#e2(01Sep2025:11:50:07): source ./xcelium.d/env.d/env.history.01Sep2025_11_50_07
+s2(01Sep2025:11:50:07):  xrun clk_div_2.v clk_div_2_test.v -gui -access +rwc 
+#e3(01Sep2025:12:02:00): source ./xcelium.d/env.d/env.history.01Sep2025_12_02_00
+s3(01Sep2025:12:02:00):  xrun clk_div_2.v clk_div_2_test.v -access +rwc -tcl -nolog -nocopyright -neverwarn 
+#e4(01Sep2025:12:02:28): source ./xcelium.d/env.d/env.history.01Sep2025_12_02_28
+s4(01Sep2025:12:02:28):  xrun clk_div_2.v clk_div_2_test.v -gui -access +rwc 
+#e5(01Sep2025:12:05:07): source ./xcelium.d/env.d/env.history.01Sep2025_12_05_07
+s5(01Sep2025:12:05:07):  xrun clk_div_2.v clk_div_8.v clk_div_2_test.v -gui -access +rwc 
+#e6(01Sep2025:12:09:44): source ./xcelium.d/env.d/env.history.01Sep2025_12_09_44
+s6(01Sep2025:12:09:44):  xrun clk_div_2.v clk_div_8.v clk_div_test.v -gui -access +rwc 
+#e7(01Sep2025:12:44:35): source ./xcelium.d/env.d/env.history.01Sep2025_12_44_35
+s7(01Sep2025:12:44:35):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_test.v -gui -access +rwc 
+#e8(01Sep2025:12:46:14): source ./xcelium.d/env.d/env.history.01Sep2025_12_46_14
+s8(01Sep2025:12:46:14):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_test.v -gui -access +rwc 
+#e9(01Sep2025:12:47:08): source ./xcelium.d/env.d/env.history.01Sep2025_12_47_08
+s9(01Sep2025:12:47:08):  xrun clk_div_2.v clk_div_8.v clk_div_test.v -gui -access +rwc 
+#e10(01Sep2025:13:18:26): source ./xcelium.d/env.d/env.history.01Sep2025_13_18_26
+s10(01Sep2025:13:18:26):  xrun clk_div_2.v clk_div_8.v clk_div_test.v -gui -access +rwc 
+#e11(01Sep2025:13:26:56): source ./xcelium.d/env.d/env.history.01Sep2025_13_26_56
+s11(01Sep2025:13:26:56):  xrun clk_div_2.v clk_div_8.v clk_div_test.v -gui -access +rwc 
+#e12(02Sep2025:06:29:07): source ./xcelium.d/env.d/env.history.02Sep2025_06_29_07
+s12(02Sep2025:06:29:07):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_test.v -gui -access +rwc 
+#e13(02Sep2025:07:21:44): source ./xcelium.d/env.d/env.history.02Sep2025_07_21_44
+s13(02Sep2025:07:21:44):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_test.v -gui -access +rwc 
+#e14(02Sep2025:07:56:25): source ./xcelium.d/env.d/env.history.02Sep2025_07_56_25
+s14(02Sep2025:07:56:25):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_test.v -gui -access +rwc "-s " 
+#e15(02Sep2025:07:57:04): source ./xcelium.d/env.d/env.history.02Sep2025_07_57_04
+s15(02Sep2025:07:57:04):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_test.v -gui -access +rwc "-s " 
+#e16(02Sep2025:08:06:45): source ./xcelium.d/env.d/env.history.02Sep2025_08_06_45
+s16(02Sep2025:08:06:45):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc 
+#e17(02Sep2025:08:07:35): source ./xcelium.d/env.d/env.history.02Sep2025_08_07_35
+s17(02Sep2025:08:07:35):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc 
+#e18(02Sep2025:08:07:48): source ./xcelium.d/env.d/env.history.02Sep2025_08_07_48
+s18(02Sep2025:08:07:48):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc 
+#e19(02Sep2025:08:12:08): source ./xcelium.d/env.d/env.history.02Sep2025_08_12_08
+s19(02Sep2025:08:12:08):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc "-s " 
+#e20(02Sep2025:08:18:17): source ./xcelium.d/env.d/env.history.02Sep2025_08_18_17
+s20(02Sep2025:08:18:17):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e21(02Sep2025:08:20:49): source ./xcelium.d/env.d/env.history.02Sep2025_08_20_49
+s21(02Sep2025:08:20:49):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e22(02Sep2025:08:25:30): source ./xcelium.d/env.d/env.history.02Sep2025_08_25_30
+s22(02Sep2025:08:25:30):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e23(02Sep2025:08:37:20): source ./xcelium.d/env.d/env.history.02Sep2025_08_37_20
+s23(02Sep2025:08:37:20):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e24(02Sep2025:08:37:27): source ./xcelium.d/env.d/env.history.02Sep2025_08_37_27
+s24(02Sep2025:08:37:27):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e25(02Sep2025:08:38:18): source ./xcelium.d/env.d/env.history.02Sep2025_08_38_18
+s25(02Sep2025:08:38:18):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc 
+#e26(02Sep2025:08:38:47): source ./xcelium.d/env.d/env.history.02Sep2025_08_38_47
+s26(02Sep2025:08:38:47):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc 
+#e27(02Sep2025:08:41:13): source ./xcelium.d/env.d/env.history.02Sep2025_08_41_13
+s27(02Sep2025:08:41:13):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc "-s " 
+#e28(02Sep2025:08:43:30): source ./xcelium.d/env.d/env.history.02Sep2025_08_43_30
+s28(02Sep2025:08:43:30):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e29(02Sep2025:08:57:40): source ./xcelium.d/env.d/env.history.02Sep2025_08_57_40
+s29(02Sep2025:08:57:40):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e30(02Sep2025:08:58:25): source ./xcelium.d/env.d/env.history.02Sep2025_08_58_25
+s30(02Sep2025:08:58:25):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e31(02Sep2025:08:59:26): source ./xcelium.d/env.d/env.history.02Sep2025_08_59_26
+s31(02Sep2025:08:59:26):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e32(02Sep2025:09:01:25): source ./xcelium.d/env.d/env.history.02Sep2025_09_01_25
+s32(02Sep2025:09:01:25):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e33(02Sep2025:09:01:46): source ./xcelium.d/env.d/env.history.02Sep2025_09_01_46
+s33(02Sep2025:09:01:46):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e34(02Sep2025:09:03:43): source ./xcelium.d/env.d/env.history.02Sep2025_09_03_43
+s34(02Sep2025:09:03:43):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e35(02Sep2025:09:04:03): source ./xcelium.d/env.d/env.history.02Sep2025_09_04_03
+s35(02Sep2025:09:04:03):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e36(02Sep2025:09:04:34): source ./xcelium.d/env.d/env.history.02Sep2025_09_04_34
+s36(02Sep2025:09:04:34):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e37(02Sep2025:09:07:25): source ./xcelium.d/env.d/env.history.02Sep2025_09_07_25
+s37(02Sep2025:09:07:25):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc 
+#e38(02Sep2025:09:09:06): source ./xcelium.d/env.d/env.history.02Sep2025_09_09_06
+s38(02Sep2025:09:09:06):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc 
+#e39(02Sep2025:09:13:31): source ./xcelium.d/env.d/env.history.02Sep2025_09_13_31
+s39(02Sep2025:09:13:31):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc "-s " 
+#e40(02Sep2025:09:15:47): source ./xcelium.d/env.d/env.history.02Sep2025_09_15_47
+s40(02Sep2025:09:15:47):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e41(02Sep2025:09:16:07): source ./xcelium.d/env.d/env.history.02Sep2025_09_16_07
+s41(02Sep2025:09:16:07):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e42(02Sep2025:09:17:08): source ./xcelium.d/env.d/env.history.02Sep2025_09_17_08
+s42(02Sep2025:09:17:08):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e43(02Sep2025:09:17:50): source ./xcelium.d/env.d/env.history.02Sep2025_09_17_50
+s43(02Sep2025:09:17:50):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e44(02Sep2025:09:18:28): source ./xcelium.d/env.d/env.history.02Sep2025_09_18_28
+s44(02Sep2025:09:18:28):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e45(02Sep2025:09:19:21): source ./xcelium.d/env.d/env.history.02Sep2025_09_19_21
+s45(02Sep2025:09:19:21):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e46(02Sep2025:09:20:14): source ./xcelium.d/env.d/env.history.02Sep2025_09_20_14
+s46(02Sep2025:09:20:14):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e47(02Sep2025:09:20:26): source ./xcelium.d/env.d/env.history.02Sep2025_09_20_26
+s47(02Sep2025:09:20:26):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 
+#e48(02Sep2025:09:20:50): source ./xcelium.d/env.d/env.history.02Sep2025_09_20_50
+s48(02Sep2025:09:20:50):  xrun clk_div_2.v clk_div_8.v clk_div_3.v clk_div_3_50.v clk_div_test.v -gui -access +rwc -s 

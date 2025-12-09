@@ -1,0 +1,10 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(01Sep2025:07:38:43):( xrun edge_detector.v edge_detector_test.v )&&(./xcelium.d/env.d/env.history.01Sep2025_07_38_43)
+s2::(01Sep2025:07:43:48):( xrun edge_detector.v edge_detector_test.v -gui -access +rwc )&&(./xcelium.d/env.d/env.history.01Sep2025_07_43_48)
+s3::(01Sep2025:08:04:03):( xrun edge_detector.v edge_detector_test.v -gui -access +rwc )&&(./xcelium.d/env.d/env.history.01Sep2025_08_04_03)
+s4::(01Sep2025:09:41:54):( xrun edge_detector.v edge_detector_test.v -gui -access +rwc )&&(./xcelium.d/env.d/env.history.01Sep2025_09_41_54)
+s5::(01Sep2025:09:43:11):( xrun edge_detector.v edge_detector_test.v -gui -access +rwc )&&(./xcelium.d/env.d/env.history.01Sep2025_09_43_11)
+s6::(01Sep2025:10:27:00):( xrun edge_detector.v edge_detector_test.v -gui -access +rwc "-s " )&&(./xcelium.d/env.d/env.history.01Sep2025_10_27_00)

@@ -1,0 +1,68 @@
+xrun(64): 24.09-s011: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s011: Started on Sep 01, 2025 at 10:26:59 UTC
+xrun
+	edge_detector.v
+	edge_detector_test.v
+	-gui
+	-access +rwc
+	-s
+Recompiling... reason: unable to stat '/./data/home/chayaza/Desktop/edge_detector.v'.
+file: edge_detector_test.v
+	module worklib.edge_detector_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		edge_detector_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.edge_detector_tb:v <0x087318b2>
+			streams:   6, words:  5860
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             3       2
+		Registers:           6       4
+		Scalar wires:        6       -
+		Always blocks:       2       1
+		Initial blocks:      4       4
+		Pseudo assignments:  2       -
+		Process Clocks:      2       2
+	Writing initial simulation snapshot: worklib.edge_detector_tb:v
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+xcelium> 
+xcelium> source /tools/cadence/XCELIUM/24.09.011/tools/xcelium/files/xmsimrc
+xcelium> 
+-------------------------------------
+Relinquished control to SimVision...
+# Restoring simulation environment...
+xcelium> input -quiet .reinvoke.sim
+xcelium> file delete .reinvoke.sim
+xcelium> reset
+Loaded snapshot worklib.edge_detector_tb:v
+xcelium> run
+xmsim: *W,DFUSE: $dumpfile edge_detector_tb.vcd is already in use (VCD file).
+            File: ./edge_detector_test.v, line = 39, pos = 12
+           Scope: edge_detector_tb
+            Time: 0 FS + 0
+
+Time=0 | in=0 | posedge_detect=x | negedge_detect=x
+Time=5 | in=0 | posedge_detect=0 | negedge_detect=x
+Time=15 | in=0 | posedge_detect=0 | negedge_detect=0
+Time=20 | in=1 | posedge_detect=0 | negedge_detect=0
+Time=25 | in=1 | posedge_detect=1 | negedge_detect=0
+Time=35 | in=1 | posedge_detect=0 | negedge_detect=0
+Time=60 | in=0 | posedge_detect=0 | negedge_detect=0
+Time=65 | in=0 | posedge_detect=0 | negedge_detect=1
+Time=75 | in=0 | posedge_detect=0 | negedge_detect=0
+Time=90 | in=1 | posedge_detect=0 | negedge_detect=0
+Time=95 | in=1 | posedge_detect=1 | negedge_detect=0
+Time=100 | in=0 | posedge_detect=1 | negedge_detect=0
+Time=105 | in=0 | posedge_detect=0 | negedge_detect=1
+Time=115 | in=0 | posedge_detect=0 | negedge_detect=0
+Simulation complete via $finish(1) at time 120 NS + 0
+./edge_detector_test.v:31     #20 $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	24.09-s011: Exiting on Sep 01, 2025 at 10:42:09 UTC  (total: 00:15:10)

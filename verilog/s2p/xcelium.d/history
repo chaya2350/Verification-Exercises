@@ -1,0 +1,7 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(03Sep2025:15:26:13):( xrun serial_to_parallel.v parallel_to_serial.v tb_serial_parallel.v )&&(./xcelium.d/env.d/env.history.03Sep2025_15_26_13)
+s2::(03Sep2025:15:26:32):( xrun serial_to_parallel.v parallel_to_serial.v tb_serial_parallel.v -gui -access +rwc )&&(./xcelium.d/env.d/env.history.03Sep2025_15_26_32)
+s3::(03Sep2025:15:37:56):( xrun serial_to_parallel.v parallel_to_serial.v tb_serial_parallel.v )&&(./xcelium.d/env.d/env.history.03Sep2025_15_37_56)

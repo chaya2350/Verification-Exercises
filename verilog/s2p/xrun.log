@@ -1,0 +1,36 @@
+xrun(64): 24.09-s011: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s011: Started on Sep 03, 2025 at 15:37:55 UTC
+xrun
+	serial_to_parallel.v
+	parallel_to_serial.v
+	tb_serial_parallel.v
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_serial_parallel
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              4       3
+		Registers:           16      11
+		Scalar wires:        10       -
+		Vectored wires:       3       -
+		Always blocks:        4       3
+		Initial blocks:       1       1
+		Cont. assignments:    1       1
+		Pseudo assignments:   1       -
+		Process Clocks:       3       2
+	Writing initial simulation snapshot: worklib.tb_serial_parallel:v
+Loading snapshot worklib.tb_serial_parallel:v .................... Done
+xcelium> source /tools/cadence/XCELIUM/24.09.011/tools/xcelium/files/xmsimrc
+xcelium> run
+Input: 10101011
+Little-endian output: 10101011
+Big-endian output: 11010101
+Little-endian: PASS
+Simulation complete via $finish(1) at time 115 NS + 0
+./tb_serial_parallel.v:58         $finish;
+xcelium> exit
+TOOL:	xrun(64)	24.09-s011: Exiting on Sep 03, 2025 at 15:37:57 UTC  (total: 00:00:02)

@@ -1,0 +1,187 @@
+$date
+    Sep  1, 2025  10:27:06
+$end
+$version
+    TOOL:	xmsim(64)	24.09-s011
+$end
+$timescale
+    1 ns
+$end
+
+$scope module edge_detector_tb $end
+$var reg       1 !    clk $end
+$var reg       1 "    in $end
+$var wire      1 #    posedge_detect  $end
+$var wire      1 $    negedge_detect  $end
+
+$scope module posedge_inst $end
+$var parameter 32 %    POSEDGE $end
+$var wire      1 &    clk  $end
+$var wire      1 '    in  $end
+$var reg       1 (    edge_detect $end
+$var reg       1 )    prev_in $end
+$upscope $end
+
+
+$scope module negedge_inst $end
+$var parameter 32 *    POSEDGE $end
+$var wire      1 +    clk  $end
+$var wire      1 ,    in  $end
+$var reg       1 -    edge_detect $end
+$var reg       1 .    prev_in $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 *
+b1 %
+0!
+0"
+x#
+x$
+0&
+0'
+x(
+x)
+0+
+0,
+x-
+x.
+$end
+#5
+1!
+1+
+1&
+0.
+0)
+0(
+0#
+#10
+0!
+0+
+0&
+#15
+1!
+1+
+1&
+0-
+0$
+#20
+1"
+0!
+0+
+0&
+1,
+1'
+#25
+1!
+1+
+1&
+1.
+1)
+1(
+1#
+#30
+0!
+0+
+0&
+#35
+1!
+1+
+1&
+0(
+0#
+#40
+0!
+0+
+0&
+#45
+1!
+1+
+1&
+#50
+0!
+0+
+0&
+#55
+1!
+1+
+1&
+#60
+0"
+0!
+0+
+0&
+0,
+0'
+#65
+1!
+1+
+1&
+0.
+1-
+0)
+1$
+#70
+0!
+0+
+0&
+#75
+1!
+1+
+1&
+0-
+0$
+#80
+0!
+0+
+0&
+#85
+1!
+1+
+1&
+#90
+1"
+0!
+0+
+0&
+1,
+1'
+#95
+1!
+1+
+1&
+1.
+1)
+1(
+1#
+#100
+0"
+0!
+0+
+0&
+0,
+0'
+#105
+1!
+1+
+1&
+0.
+1-
+0)
+0(
+0#
+1$
+#110
+0!
+0+
+0&
+#115
+1!
+1+
+1&
+0-
+0$
+#120

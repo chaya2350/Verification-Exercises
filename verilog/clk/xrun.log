@@ -1,0 +1,141 @@
+xrun(64): 24.09-s011: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s011: Started on Sep 02, 2025 at 09:20:50 UTC
+xrun
+	clk_div_2.v
+	clk_div_8.v
+	clk_div_3.v
+	clk_div_3_50.v
+	clk_div_test.v
+	-gui
+	-access +rwc
+	-s
+Recompiling... reason: file './clk_div_3_50.v' is newer than expected.
+	expected: Tue Sep  2 09:20:22 2025
+	actual:   Tue Sep  2 09:20:40 2025
+file: clk_div_3_50.v
+	module worklib.clk_div_3_50:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_clk_divs
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.clk_div_3_50:v <0x7cb448d3>
+			streams:   9, words:  1602
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              5       5
+		Registers:           10      10
+		Scalar wires:        10       -
+		Always blocks:        6       6
+		Initial blocks:       9       9
+		Cont. assignments:    1       1
+		Pseudo assignments:   2       -
+		Process Clocks:       5       5
+	Writing initial simulation snapshot: worklib.tb_clk_divs:v
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+xcelium> 
+xcelium> source /tools/cadence/XCELIUM/24.09.011/tools/xcelium/files/xmsimrc
+xcelium> 
+-------------------------------------
+Relinquished control to SimVision...
+# Restoring simulation environment...
+xcelium> input -quiet .reinvoke.sim
+xcelium> file delete .reinvoke.sim
+xcelium> run
+xmsim: *W,DFUSE: $dumpfile clk_divs.vcd is already in use (VCD file).
+            File: ./clk_div_test.v, line = 54, pos = 16
+           Scope: tb_clk_divs
+            Time: 0 FS + 0
+
+Time=0 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+xmsim: *W,VCDFUSE: Default VCD file name verilog.dump already in use (VCD file).
+            Time: 0 FS + 3
+
+Time=5 | clk=1 | clk_out_2=1 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=10 | clk=0 | clk_out_2=1 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=15 | clk=1 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=0
+Time=20 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=25 | clk=1 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=30 | clk=0 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=35 | clk=1 | clk_out_2=0 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=40 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=45 | clk=1 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=0
+Time=50 | clk=0 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=55 | clk=1 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=60 | clk=0 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=65 | clk=1 | clk_out_2=1 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=70 | clk=0 | clk_out_2=1 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=75 | clk=1 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=0
+Time=80 | clk=0 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=85 | clk=1 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=90 | clk=0 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=95 | clk=1 | clk_out_2=0 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=100 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=105 | clk=1 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=0
+Time=110 | clk=0 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=115 | clk=1 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=120 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=125 | clk=1 | clk_out_2=1 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=130 | clk=0 | clk_out_2=1 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=135 | clk=1 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=0
+Time=140 | clk=0 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=145 | clk=1 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=150 | clk=0 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=155 | clk=1 | clk_out_2=0 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=160 | clk=0 | clk_out_2=0 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=165 | clk=1 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=0
+Time=170 | clk=0 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=175 | clk=1 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=180 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=185 | clk=1 | clk_out_2=1 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=190 | clk=0 | clk_out_2=1 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=195 | clk=1 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=0
+Time=200 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=205 | clk=1 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=210 | clk=0 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=215 | clk=1 | clk_out_2=0 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=220 | clk=0 | clk_out_2=0 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=225 | clk=1 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=0
+Time=230 | clk=0 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=235 | clk=1 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=240 | clk=0 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=245 | clk=1 | clk_out_2=1 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=250 | clk=0 | clk_out_2=1 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=255 | clk=1 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=0
+Time=260 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=265 | clk=1 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=270 | clk=0 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=275 | clk=1 | clk_out_2=0 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=280 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=285 | clk=1 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=0
+Time=290 | clk=0 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=295 | clk=1 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=300 | clk=0 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=305 | clk=1 | clk_out_2=1 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=310 | clk=0 | clk_out_2=1 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=315 | clk=1 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=0
+Time=320 | clk=0 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=325 | clk=1 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=330 | clk=0 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=335 | clk=1 | clk_out_2=0 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=340 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=0 | clk_out_3_50=0
+Time=345 | clk=1 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=0
+Time=350 | clk=0 | clk_out_2=1 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=355 | clk=1 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=360 | clk=0 | clk_out_2=0 | clk_out_8=0 | clk_out_3=1 | clk_out_3_50=1
+Time=365 | clk=1 | clk_out_2=1 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=370 | clk=0 | clk_out_2=1 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Time=375 | clk=1 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=0
+Time=380 | clk=0 | clk_out_2=0 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=385 | clk=1 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=390 | clk=0 | clk_out_2=1 | clk_out_8=1 | clk_out_3=1 | clk_out_3_50=1
+Time=395 | clk=1 | clk_out_2=0 | clk_out_8=1 | clk_out_3=0 | clk_out_3_50=0
+Simulation complete via $finish(1) at time 400 NS + 0
+./clk_div_test.v:56         #400 $finish;   // run longer to observe clk/8 and clk/3_50
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	24.09-s011: Exiting on Sep 02, 2025 at 09:40:55 UTC  (total: 00:20:05)
